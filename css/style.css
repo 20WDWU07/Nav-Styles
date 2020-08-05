@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* serif means tail
+headings can use serifs
+but keep the paragraphs with san serif */
+
+/* body{
+  font-family: 'Roboto', sans-serif;
+} */
+.header{
+  font-family: 'Roboto', sans-serif;
+}
+.header2{
+  font-family: 'Chilanka', cursive;
+}
+.container{
+  width:90%;
+  margin:50px  auto;
+
+}
+
+.logoContainer, .logoContainer2{
+  width:100%;
+  margin:auto;
+  background: dimgray;
+}
+.logo.logo2{
+  width: 300px;
+  display:block;
+  margin: 20px auto;
+}
+.navContainer{
+background: dimgray;
+width: 20%;
+/* margin:auto; */
+}
+.navContainer2{
+  width: 30%;
+  height: 300px;
+  margin:200px auto;
+  /* margin: 20px ; */
+  /* background: dimgray; */
+}
+.listContainer{
+
+}
+.listContainer2{
+  width: 100%;
+  /* margin:auto; */
+  /* background: dimgray; */
+}
+
+
+.linkContainer{
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin:20px ;
+  padding: 20px;
+  /* border: 1px solid white; */
+}
+.linkContainer2{
+  width: 100%;
+  height: 60px;
+  margin: 5px;
+  border: 3px solid khaki;
+  font-size: 25px;
+  margin: auto;
+  padding:10px;
+  background: dimgray;
+  list-style: none;
+
+}
+.bannerContainer{
+  width:100%;
+
+}
+.banner2{
+  width:100%;
+  height:100vh;
+  z-index:-1;
+  position: absolute;
+  top: 0;
+  /* margin:auto;
+  display:block; */
+}
+.navLink:link{
+  text-decoration: none;
+  color: khaki;
+
+
+}
+.navLink:visited{
+  color: black;
+}
+.navLink:hover{
+  color:black;
+  background: khaki;
+  border:3px solid dimgray;
+}
+.navLink:active{
+  color:blue;
+  text-decoration: underline;
+}
+
+.navLink2:link{
+  color: khaki;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.navLink2:visited{
+  color: black;
+
+}
+
+
+.navLink2:hover {
+  background: khaki;
+  color: black;
+  border:3px solid dimgray;
+}
+
+.navLink2:active{
+  color:black;
+  text-decoration: underline;
+}
